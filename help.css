@@ -1,0 +1,55 @@
+body {
+    
+}
+#row1{
+    width:90%;
+	text-align:center;
+	padding:2%;
+	margin-top:10%;
+}
+#row2{
+    width:90%;
+	padding:2%;
+    margin-top:10%;
+	text-align:left;
+}
+input{
+	-moz-border-radius:0px;
+	border-radius:0px;
+	font-family:Arial;
+	padding:5px;
+	
+}
+.heading{
+    width:100%;
+    padding:10px;
+}
+.head{
+    font-family: 'Galada', cursive;
+
+
+}
+.login{
+    color:#581845;
+	font-family: 'Orbitron', sans-serif;
+	font-weight:bolder;
+}
+.btn{
+	width:200px;
+}
+.valid:before {
+    position: relative;
+    left: -35px;
+    content: "✔";
+}
+
+/* Add a red text color and an "x" when the requirements are wrong */
+.invalid {
+    color: red;
+}
+
+.invalid:before {
+    position: relative;
+    left: -35px;
+    content: "✖";
+}
